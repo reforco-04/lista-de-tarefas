@@ -17,7 +17,7 @@ const App = () => {
     setTarefas(response);
   }
 
-  async function criarTarefa(event) {
+  async function criarTarefa(event: any) {
     event.preventDefault();
 
     const tarefa = {

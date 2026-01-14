@@ -7,7 +7,7 @@ export interface TarefaTipo {
     data: string
 }
 
-const Tarefa = ({ id, titulo, descricao, data } : TarefaTipo ) => {
+const Tarefa = ({ titulo, descricao, data } : TarefaTipo ) => {
     return (
         <div className="rounded bg-white p-4 ">
             <h6 className="font-bold text-lg line-clamp-1" title={titulo}>{titulo}</h6>

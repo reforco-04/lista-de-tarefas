@@ -8,7 +8,7 @@ const App = () => {
   const [tarefas, setTarefas] = useState<TarefaTipo[]>([]);
 
   const tituloRef = useRef<HTMLInputElement>(null);
-  const descricaoRef = useRef<HTMLInputElement>(null);
+  const descricaoRef = useRef<HTMLTextAreaElement>(null);
   const dataRef = useRef<HTMLInputElement>(null);
 
   async function buscarTarefas() {

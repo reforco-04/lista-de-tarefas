@@ -1,6 +1,6 @@
 import { LuPencil, LuTrash } from "react-icons/lu";
 
-interface TarefaTipo {
+export interface TarefaTipo {
     id?: number,
     titulo: string,
     descricao: string,
